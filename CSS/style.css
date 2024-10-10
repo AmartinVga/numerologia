@@ -1,0 +1,32 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(189, 180, 180);
+    font-size: larger
+  };
+form{
+    font-size: 5rem;
+
+}
+input{
+    border-radius: .5rem;
+    
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: medium;
+    line-height:  2rem;
+}
+.button {
+    background-color: aquamarine; /* Green */
+    border: none;
+    border-radius: 2rem;
+    color: black;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
