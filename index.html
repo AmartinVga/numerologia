@@ -7,21 +7,26 @@
         <title>Numerologia</title>
     </head>
     <body>
-        <h1>Calculadora de Mision de Vida</h1>
+        <h1>Calculadora de Fecha de Nacimiento</h1>
         <h3>Ingrese su fecha de Nacimiento</h3>
         <form id="miFormu">
             <label class="etiqueta" for="dia">Dia:</label>
-            <input type="number" id="dia" name="dia" max="31" required maxlength="2" placeholder="dd"><br><br>
+            <input type="number" id="dia" name="dia" max="31" required maxlength="2" placeholder="dd" size="5"><br><br>
             <label for="mes">Mes:</label>
-            <input type="number" id="mes" name="mes" max='12' required placeholder="mm" maxlength="2"><br><br>
+            <input type="number" id="mes" name="mes" max='12' required placeholder="mm" maxlength="2" size="5"><br><br>
             <label for="year">Año:</label>
-            <input type="numer" id="year" name="year" min="1900" max="2024" required maxlength="4" placeholder="aaaa"><br><br>
+            <input type="numer" id="year" name="year" min="1900" max="2024" required maxlength="4" placeholder="aaaa"size="5"><br><br>
             <input class="button button-submit" type="submit" value="Enviar">
         </form>
         <h3 id="resultado"></h3>
         <p id="explicacion"></p>
-        <button class="button" id="boton"></button>
+        <a id="fuente" href="https://www.clarin.com/astrologia/mision-vida-numerologia_0_vnAXiKzPay.html?srsltid=AfmBOoqCNAwKPZKGESU8f4Jv-oi61xfTzJ4KTZD6zXZPbuAY2EIqlxNy"></a>
+        <br>
+            <button class="button" id="boton"></button>
         <!-- <input type="submit" value="Recargar"> -->
+         <br>
+        <br>
+         <a class="button" role="button" href="nombre.html">Calculadora de Nombre</a>
     </body>
     <script src="JS/script.js"></script>
 </html>

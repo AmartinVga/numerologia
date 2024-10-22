@@ -2,10 +2,13 @@ body{
     font-family: Arial;
     text-align: center;
     background-color: rgb(189, 180, 180);
-    font-size: larger
+    font-size: larger;
+    ;
   };
 form{
     font-size: 5rem;
+    
+
 
 }
 input{
@@ -14,6 +17,8 @@ input{
 }
 a{
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
 }
 p{
     font-size: medium;
@@ -29,4 +34,5 @@ p{
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
+    line-height:  2rem
   }
