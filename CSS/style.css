@@ -1,20 +1,13 @@
+
+
 body{
     font-family: Arial;
     text-align: center;
     background-color: rgb(189, 180, 180);
     font-size: larger;
-    ;
   };
-form{
-    font-size: 5rem;
-    
 
 
-}
-input{
-    border-radius: .5rem;
-    
-}
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,6 +17,13 @@ p{
     font-size: medium;
     line-height:  2rem;
 }
+.etiqueta{
+    font-weight: bold;
+}
+.formulario{
+    width: 35px;
+}
+
 .button {
     background-color: aquamarine; /* Green */
     border: none;
@@ -33,6 +33,9 @@ p{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 22px;
-    line-height:  2rem
-  }
+    font-size: 19px;
+    line-height:  2rem;
+    width: 10rem;
+  };
+
+    

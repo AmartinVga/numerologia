@@ -176,26 +176,4 @@ function getCleanedString(cadena){
     cadena = cadena.replace(/ñ/gi,"n");
     return cadena;
  }
-
-//fecha = dia + mes +year;
-// function reducirNumeros(fecha){
-//     suma = fecha.split("")
-//     reducir = suma.reduce((acumulator, currentValue) =>       {return acumulator + parseInt(currentValue)}, 0);
-//     return reducir
-// }
-// reduccion = reducirNumeros(fecha);
-
-// resultadoFinal = 0
-
-// if (reduccion < 8 || reduccion == 11 || reduccion ==22) {
-//     resultadoFinal = reduccion;
-// }
-    
-// else if (reduccion > 9){
-//     fecha2 = (reduccion).toString();
-//     resultadoFinal = reducirNumeros(fecha2);
-// }
-
-
-// 19/10
-// Ya la funcion letras a numeros que es el corazon de nuestra aplicacion tambien reduce los numeros mayores a 9 a un digito. Por lo tanto solo queda armar el output para poder mostar esta informacion de forma ordenada
+ 
