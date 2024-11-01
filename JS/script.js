@@ -65,7 +65,12 @@ function reducirAUnDigito(valor){
     if (valor < 9 || valor ==11 || valor ==22){
     resultado = valor;
     }else{
-    resultado = valor.toString().split('').reduce((acum, val) => acum + parseInt(val), 0);}
+    resultado = valor.toString().split('').reduce((acum, val) => acum + parseInt(val), 0);
+    if (resultado < 9 || resultado ==11 || resultado ==22){
+    resultado = resultado;}
+      else{resultado = resultado.toString().split('').reduce((acum, val) => acum + parseInt(val), 0);}
+   
+    }
     
     return resultado};
 
